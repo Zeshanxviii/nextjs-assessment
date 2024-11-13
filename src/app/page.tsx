@@ -1,17 +1,40 @@
-import './globals.css'
-import Header from "@/components/header";
+import './globals.css';
+import HeroSection from '@/components/heroSection';
+import Header from '@/components/header';
+import { Urbanist } from 'next/font/google';
+import LenisScroll from '@/utils/smothscroll';
+import Component from '@/components/body';
+import Testimonial from '@/components/testamonial';
+import { cardData } from '../utils/data'
+import Frequentlyasked from '@/components/footer';
+import Influencers from '@/components/infulencer'
+import Card from '@/components/card/card';
+
+const urbanist = Urbanist({
+  weight: '700',
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export default function Home() {
   return (
-    <div className="text-center p-8">
+    <div className={`${urbanist.className}text-center xl:px-40`}>
+      <main style={{background:"#181818"}} 
+      className='flex justify-center h-full'>
+
+      <LenisScroll/>
+      <section className="mt-8 w-1200 ">
       <Header />
-      <section className="mt-8">
-        <h1 className="text-4xl font-bold text-green-500">One Stop Marketplace for Influencers</h1>
-        <p className="mt-4 text-lg">
-          Unlock Your Influence and Earn with Our Exclusive Marketplace
-        </p>
+        <HeroSection />
+        {/* <HeroOne />
+        <HeroTwo /> */}
+        <Component />
+        <Testimonial/>
+        <Influencers/>
+        <Frequentlyasked/>
       </section>
       {/* Add more sections */}
+      </main>
     </div>
   );
 }

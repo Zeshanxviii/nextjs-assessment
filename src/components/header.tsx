@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-black text-white p-4 shadow-lg">
+    <header className=" text-white md:w-1200 py-8 px-6">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -57,7 +57,7 @@ export default function Header() {
           <Link href="#merchandise" className="block py-2 px-4 hover:bg-gray-800">Merchandise
           </Link>
           <Link href="#brand"
-             className="block py-2 px-4 hover:bg-gray-800">Brand
+            className="block py-2 px-4 hover:bg-gray-800">Brand
           </Link>
           <Link href="#digital" className="block py-2 px-4 hover:bg-gray-800">Digital
           </Link>
