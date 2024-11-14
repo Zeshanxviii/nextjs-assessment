@@ -5,7 +5,7 @@ Welcome to the VYB Store project!
 ## Live Demo
 
 Check out the live version of the project:  
-### [VYB Store - Live Demo](https://vyb-store-psi.vercel.app/)
+### [VYB Store - Live Demo](https://nextjs-assessment-ten.vercel.app/)
 
 ## GitHub Repository
 
