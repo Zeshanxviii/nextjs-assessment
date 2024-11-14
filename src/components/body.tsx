@@ -30,6 +30,8 @@ export default function Component() {
                     <div className="absolute inset-0">
                         <Image
                             src="/Frame 1574.png"
+                            width={1200}
+                            height={700}
                             alt="Mountain landscape"
                             className="w-full h-full object-cover rounded-t-3xl"
                         />

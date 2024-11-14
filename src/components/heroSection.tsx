@@ -46,7 +46,10 @@ export default function HeroSection() {
 
                 {/* Right Section */}
                 <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center items-center">
-                    <Image src="/iamge.png" alt="hero Image" className="w-full h-auto max-w-[400px] md:max-w-[500px]" />
+                    <Image src="/iamge.png" alt="hero Image" 
+                    width={500}
+                    height={400}
+                    className="w-full h-auto max-w-[400px] md:max-w-[500px]" />
                 </div>
             </div>
         </section>
