@@ -4,7 +4,6 @@ import Image from "next/image";
 export default function Component() {
     return (
         <div className="min-h-screen px-4 text-white">
-            {/* Navigation */}
             <nav className="w-full bg-black py-8 px-4 rounded-3xl">
                 <div className="max-w-screen-xl mx-auto px-8">
                     <ul className="flex justify-center gap-8 sm:gap-16 py-6">
@@ -24,10 +23,8 @@ export default function Component() {
                 </div>
             </nav>
 
-            {/* Spacer */}
             <div className="h-12"></div>
 
-            {/* Hero Section */}
             <div className="mx-auto">
                 <div className="relative flex h-[300px] sm:h-[540px] max-w-screen-xl items-center justify-center mx-auto">
                     <div className="absolute inset-0">
@@ -48,19 +45,15 @@ export default function Component() {
                     </div>
                 </div>
 
-                {/* Carousel Section */}
                 <div className="bg-black w-full mx-auto pt-12">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         <CarouselComponent />
                     </div>
                 </div>
 
-                {/* How to list section */}
                 <div className="relative bg-gradient-to-r from-fuchsia-950 via-black to-slate-950 rounded-b-3xl">
-                    {/* Gradient Overlay */}
                     <div className="absolute inset-0 bg-black/50 rounded-b-3xl z-0"></div>
 
-                    {/* Content */}
                     <div className="relative max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-8 z-10">
                         <h2 className="font-bold text-xl sm:text-3xl text-white mb-8">
                             How to list?

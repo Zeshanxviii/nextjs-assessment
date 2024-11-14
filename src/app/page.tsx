@@ -5,10 +5,11 @@ import { Urbanist } from 'next/font/google';
 import LenisScroll from '@/utils/smothscroll';
 import Component from '@/components/body';
 import Testimonial from '@/components/testamonial';
-import { cardData } from '../utils/data'
 import Frequentlyasked from '@/components/footer';
 import Influencers from '@/components/infulencer'
-import Card from '@/components/card/card';
+import '@fontsource/urbanist/300.css'; 
+import '@fontsource/urbanist/400.css'; 
+import '@fontsource/urbanist/600.css'; 
 
 const urbanist = Urbanist({
   weight: '700',
@@ -26,14 +27,11 @@ export default function Home() {
       <LenisScroll/>
       <Header />
         <HeroSection />
-        {/* <HeroOne />
-        <HeroTwo /> */}
         <Component />
         <Testimonial/>
         <Influencers/>
         <Frequentlyasked/>
       </section>
-      {/* Add more sections */}
       </main>
     </div>
   );

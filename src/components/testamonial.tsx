@@ -39,9 +39,7 @@ type Feature = {
         return (
             <div className="min-h-screen px-4 p-8 md:p-12 lg:p-16">
                 <div className="max-w-7xl mx-auto">
-                    {/* Main Heading */}
-
-                    {/* Responsive Layout */}
+ 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                         {/* Title Section on the left (for medium and large screens) */}
                         <div className="flex flex-col justify-center">
