@@ -57,7 +57,7 @@ const destinations: Destination[] = [
 
 const CarouselComponent = () => {
     return (
-        <div className="bg-black text-white md:w-1200">
+        <div className="bg-black text-white md:w-[1170px]">
             <h2 className="text-center text-4xl font-semibold pb-16">
                 Explore Our Curated Travel Itineraries
             </h2>
