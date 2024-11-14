@@ -1,5 +1,5 @@
 // components/CarouselComponent.tsx
-import React, { useRef } from "react";
+import React from "react";
 import Image from "next/image";
 
 interface Destination {
