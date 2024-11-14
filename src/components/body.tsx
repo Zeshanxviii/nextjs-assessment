@@ -28,7 +28,7 @@ export default function Component() {
             <div className="mx-auto">
                 <div className="relative flex h-[300px] sm:h-[540px] max-w-screen-xl items-center justify-center mx-auto">
                     <div className="absolute inset-0">
-                        <img
+                        <Image
                             src="/Frame 1574.png"
                             alt="Mountain landscape"
                             className="w-full h-full object-cover rounded-t-3xl"

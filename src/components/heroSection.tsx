@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from 'next/image';
+
 
 export default function HeroSection() {
     return (
@@ -44,7 +46,7 @@ export default function HeroSection() {
 
                 {/* Right Section */}
                 <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center items-center">
-                    <img src="/iamge.png" alt="hero img" className="w-full h-auto max-w-[400px] md:max-w-[500px]" />
+                    <Image src="/iamge.png" alt="hero Image" className="w-full h-auto max-w-[400px] md:max-w-[500px]" />
                 </div>
             </div>
         </section>
