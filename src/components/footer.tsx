@@ -42,10 +42,10 @@ export default function Frequentlyasked() {
     ]
 
     return (
-        <div className="min-h-screen p-6 md:p-12">
+        <div className="min-h-screen mt-8 px-4 p-6 md:p-12">
             <div className="mx-auto max-w-6xl">
                 <div className="flex flex-col gap-12 md:flex-row md:gap-24">
-                    <div className="md:w-1/3 content-center ">
+                    <div className="md:w-1/3 md:content-center ">
                         <h2 className="text-3xl font-bold text-[#00FF85] md:text-4xl">
                             FREQUENTLY ASKED QUESTIONS
                         </h2>

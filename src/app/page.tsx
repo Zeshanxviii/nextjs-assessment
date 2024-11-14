@@ -18,12 +18,12 @@ const urbanist = Urbanist({
 
 export default function Home() {
   return (
-    <div className={`${urbanist.className}text-center xl:px-40`}>
-      <main style={{background:"#181818"}} 
+    <div className={`${urbanist.className}text-center `}>
+      <main  
       className='flex justify-center h-full'>
 
+      <section style={{background:"#181818"}} className="pt-8 sm:w-[324px] md:w-1200 ">
       <LenisScroll/>
-      <section className="mt-8 w-1200 ">
       <Header />
         <HeroSection />
         {/* <HeroOne />

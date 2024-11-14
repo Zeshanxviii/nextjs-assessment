@@ -37,7 +37,7 @@ type Feature = {
 
     export default function Features() {
         return (
-            <div className="min-h-screen p-8 md:p-12 lg:p-16">
+            <div className="min-h-screen px-4 p-8 md:p-12 lg:p-16">
                 <div className="max-w-7xl mx-auto">
                     {/* Main Heading */}
 
